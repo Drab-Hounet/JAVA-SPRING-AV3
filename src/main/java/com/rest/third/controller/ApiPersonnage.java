@@ -15,9 +15,9 @@ import java.util.stream.Collectors;
 public class ApiPersonnage {
 
     static List<PersonnageDTO> listPersonnages = new ArrayList() {{
-        add(new PersonnageDTO(1, "tintin", "Guerrier", 10));
-        add(new PersonnageDTO(2, "toto", "Blagueur", 5));
-        add(new PersonnageDTO(3, "bob", "Eponge", 5));
+        add(new PersonnageDTO(1, "tintin1", "Guerrier", 10));
+        add(new PersonnageDTO(2, "toto1", "Blagueur", 5));
+        add(new PersonnageDTO(3, "bob1", "Eponge", 5));
     }};
 
     @ApiOperation(value = "Récupère les personnages")
